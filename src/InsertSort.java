@@ -3,7 +3,7 @@
  * @CreateDate: 2019-03-07 10:20
  * @Version: 1.0
  * http://www.codeceo.com/article/10-sort-algorithm-interview.html#0-tsina-1-10490-397232819ff9a47a7b7e80a40613cfe1
- * 复杂度为O(n^2) 精确为
+ * 复杂度为O(n^2)
  */
 public class InsertSort {
 
