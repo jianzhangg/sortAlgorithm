@@ -4,6 +4,8 @@
  * @Version: 1.0
  * http://www.codeceo.com/article/10-sort-algorithm-interview.html#0-tsina-1-10490-397232819ff9a47a7b7e80a40613cfe1
  * 复杂度为O(nlogn)  递归分治会有logn层,每次都有n次遍历
+ * https://blog.csdn.net/weshjiness/article/details/8660583
+ * 最坏的情况下,排出来的数一边倒,比如数组已经是正序的,这时候递归深度为n-1,时间复杂度就变成了O(n^2)
  */
 public class QuickSort {
 
