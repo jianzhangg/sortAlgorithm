@@ -3,7 +3,7 @@
  * @CreateDate: 2019-03-07 10:20
  * @Version: 1.0
  * http://www.codeceo.com/article/10-sort-algorithm-interview.html#0-tsina-1-10490-397232819ff9a47a7b7e80a40613cfe1 此文章中i*=2有误,应为i=i*2+1
- * 复杂度为O(nlogn)
+ * 复杂度为O(nlogn) 细分应该是第一次调整无序为大顶堆length/2-1次adjustHeap+length-1次adjustHeap,每次adjustHeap次数不固定,最多logn次
  * 叶子节点概念  https://blog.csdn.net/heyuchang666/article/details/50531944
  * 堆的具体实现  https://www.cnblogs.com/chengxiao/p/6129630.html
  */
