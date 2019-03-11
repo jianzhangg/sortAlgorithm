@@ -15,7 +15,6 @@ public class HeapSort {
         // 为什么一开始这样排不好? 因为这种排序需要子树(最底层的上一层)已经排好序了  因为在j = j * 2 + 1 这里限制了最后一层达不到 比如第三层填满需要8个 而实际只有5个
 //        adjustHeap(arr, 0, arr.length);
 
-
         // 调整无序数列为大顶堆 length/2-1为最后一个非叶子节点,--可以依次操作所有的根
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             adjustHeap(arr, i, arr.length);
@@ -47,7 +46,6 @@ public class HeapSort {
             } else {
                 break;
             }
-
         }
         arr[i] = temp;
     }

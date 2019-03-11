@@ -32,7 +32,7 @@ public class BubbleSort {
 
 
     public static void main(String[] args) {
-        int[] arr = {1, 3, 4, 6, 12, 534, 65, 75, 7, 68, 6, 98, 9, 7, 55, 32, 4, 324, 49, 876, 54324786, 5, 7, 654};
+        int[] arr = {11, 3, 4, 6, 12, 534, 65, 75, 7, 68, 6, 98, 9, 7, 55, 32, 4, 324, 49, 876, 54324786, 5, 7, 654};
         BubbleSort.bubbleSort(arr);
         for (int i : arr) {
             System.out.println(i);
