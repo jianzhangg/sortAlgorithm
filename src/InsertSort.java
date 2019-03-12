@@ -4,6 +4,7 @@
  * @Version: 1.0
  * http://www.codeceo.com/article/10-sort-algorithm-interview.html#0-tsina-1-10490-397232819ff9a47a7b7e80a40613cfe1
  * 复杂度为O(n^2)
+ * 这个插入排序不能在数组为正序时为O(n)时间复杂度
  */
 public class InsertSort {
 
